@@ -12,5 +12,13 @@ namespace TestProject.Tests.CalculatorTests
 
             Assert.AreEqual(12.0f, result);
         }
+
+        [TestMethod]
+        public void Positive_x_Negative()
+        {
+            var result = new Calculator().Multiply(1.0f, -4.0f);
+
+            Assert.AreEqual(-4.0f, result);
+        }
     }
 }
