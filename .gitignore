@@ -3,3 +3,5 @@
 ################################################################################
 
 /TestProject/.vs/TestProject/v15
+/TestProject/TestProject.Tests/bin/Debug/netcoreapp2.0
+/TestProject/TestProject.Tests/obj
